@@ -52,28 +52,28 @@ body{
 /* Hover effect */
 .vision-button:hover {
   background-color: red;
-  font-style:italic
+  font-style:italic ;
 }
 .banner-btn:hover {
   background-color: rgb(255, 153, 0);
   font-style: 700;
-  font-style:italic
+  font-style:italic;
 }
 .button-taka:hover {
   background-color: rgba(255, 0, 212, 0.884);
-  font-style:italic
+  font-style:italic;
 }
 
 .donate-button:hover {
   background-color: rgba(255, 136, 0, 0.952);
   f
-  font-style:italic 
+  font-style:italic ;
 }
 
   .btn-sat:hover {
     background-color: rgba(225, 0, 255, 0.952);
     f
-    font-style:italic }
+    font-style:italic ;}
 
 /* Main margin */
 .main-margin{
