@@ -581,3 +581,49 @@ line-height: 24px;
 margin-top: 12px;
 margin-bottom: 4px;
 }
+/* pillar sections */
+.pillar-section{
+ margin-top: 80px;
+}
+/* .pillar-div{
+
+} */
+.bulbs-light{
+ margin-top: 32px;
+ display: flex;
+align-items: center;
+gap: 64px;
+align-self: stretch;
+}
+.bulb{
+  border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+display: flex;
+width: 302px;
+padding: 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+
+}
+bulb-title{align-self: stretch;
+  color: rgba(14, 14, 14, 0.80);
+font-family: "Fira Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 24px;
+margin-bottom: 12px;
+
+}
+.bulb-texts{
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
