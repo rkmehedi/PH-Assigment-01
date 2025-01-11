@@ -549,7 +549,7 @@ line-height: normal;
 }
 .yunus-section-div{
 
-  background-image: url(assets/quote-bg.png);
+  background-image: url(/assets/quote-bg.png);
   
   background-repeat: no-repeat;
   background-position: top left ;
