@@ -54,6 +54,10 @@ body{
   background-color: red;
   font-style:italic ;
 }
+.subscribe:hover {
+  background-color: red;
+  font-style:oblique
+}
 .banner-btn:hover {
   background-color: rgb(255, 153, 0);
   font-style: 700;
@@ -363,7 +367,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; 
-margin: 24px 88px 0px 88px;
+
+}
+.donate-text-margin{
+  margin: 24px 88px 0px 88px;
 }
 
 .button-taka{
@@ -439,3 +446,95 @@ line-height: normal;
 
 }
 
+/* News Latter Section */
+
+.news-latter-section{
+  border-radius: 24px;
+background: #C6E4D6;
+align-items: center;
+margin-bottom: 80px;
+
+}
+
+.news-latter-div {
+  flex-direction: column;
+  display: flex;
+width: 1280px;
+padding: 80px 100px;
+justify-content: center;
+align-items: center;
+/* gap: 64px; */
+
+}
+.title-text-newslatter{
+  width: 622px;
+  color: #0E0E0E;
+text-align: center;
+font-family: "Fira Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.news-latter-text{
+  width: 622px;
+  color: rgba(14, 14, 14, 0.70);
+text-align: center;
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+#e-mail-news{
+  border-radius: 8px 0px 0px 8px;
+background: #FFF;
+display: flex;
+width: 600px;
+padding: 18px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+color: rgba(14, 14, 14, 0.30);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.subscribe{
+  border-radius: 0px 8px 8px 0px;
+  background: #006A50;
+  /* display: flex; */
+padding: 17px 34px;
+/* border-style: none; */
+/* justify-content: center; */
+/* align-items: center; */
+gap: 48px;
+color: #FFF;
+font-family: "Fira Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.subscribe-fix{
+ display: flex; 
+
+ justify-content:space-between;
+  align-items: center;
+}
+.no-distrub {
+  color: rgba(14, 14, 14, 0.70);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 622px;
+  margin: 24px 64px 0px 64px;
+}
