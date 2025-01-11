@@ -1,39 +1,220 @@
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-style: normal;
-  }
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
 
-  /* Buttons */
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  .btn-secondary{
-    color: #006A50;
+/* Buttons */
+
+.btn-secondary {
+  color: #006a50;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 15px 30px 15px 30px;
+}
+
+/* Header and Nav Sections */
+
+.header-section {
+  margin-bottom: 20px;
+}
+
+.nav-main {
+  display: flex;
+  padding: 24px 160px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Hover effect */
+
+.banner-btn:hover {
+  background-color: red;
+  font-style: 700;
+}
+/* Main margin */
+.main-margin{
+  margin: 0 160px;
+  /* justify-content: center; */
+}
+
+/* Banner Section */
+.banner-section{
+ 
+  border-radius: 24px;
+  background: #c6e4d6;
+  display: flex;
+  max-width: 100%;
+  padding: 80px 100px;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 64px;
+}
+
+.banner-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+.banner-text {
+  width: 622px;
+  color: #0e0e0e;
+  font-family: "Fira Sans";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.banner-btn {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  background: #006a50;
+  display: flex;
+  padding: 17px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+/* Vision section  */
+.vision-section{
+  display: flex;
+  /* width: 1280px; */
+  max-width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.main-lighting{
+  display: flex;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+}
+
+.title-text {align-self: stretch;
+  color: #0E0E0E;
 font-family: "Fira Sans";
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-padding: 15px 30px 15px 30px;
-  }
-
-
-  /* Nav Sections */
-
-  .nav-main{ 
-    display: flex;
-    padding: 24px 160px;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .nav-title{
-    color: #0E0E0E;
-font-family: "Fira Sans";
-font-size: 32px;
+font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-  }
+}
+.vision-text{
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+.vision-light{
+  border-radius: 16px;
+/* border: 0px solid #5490F5; */
+/* background: rgba(84, 144, 245, 0.20); */
+display: flex;
+padding: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex: 1 0 0;
+}
+.vision-light-color1{
+  border: 0px solid #5490F5;
+  background: rgba(84, 144, 245, 0.20);
+}
+.vision-light-color2{
+  border: 0px solid #09A15C;
+  background: #C6E4D6;
+}
+.vision-light-color3{
+  border: 0px solid #FFC239;
+  background: #F7EBCF;
+}
+.vision-light-img{
+  position: top left ;
+}
+.vision-light-heading{
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.80);
+font-family: "Fira Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 24px;
+margin-bottom: 12px;
+}
+.vision-light-text{align-self: stretch;
+  color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+
+}
+/* Vision button color */
+.vision-button{
+  color: #FFF;
+font-family: "Fira Sans";
+margin-top: 24px;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  border-radius: 8px;
+/* background: #5490F5; */
+display: flex;
+padding: 11px 20px;
+justify-content: center;
+align-items: center;
+/* gap: 48px; */
+
+}
+.vision-button-c1{
+  background: #5490F5;
+ 
+}
+.vision-button-c2{
+  background: #09A15C;
+ 
+}
+.vision-button-c3{
+  background: #FFC239;
+
+}
