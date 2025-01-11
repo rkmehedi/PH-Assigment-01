@@ -11,6 +11,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #F1F1F3;
+}
 
 /* Buttons */
 
@@ -47,11 +50,15 @@
 }
 
 /* Hover effect */
-
-.banner-btn:hover {
+.vision-button:hover {
   background-color: red;
   font-style: 700;
 }
+.banner-btn:hover {
+  background-color: rgb(255, 153, 0);
+  font-style: 700;
+}
+
 /* Main margin */
 .main-margin{
   margin: 0 160px;
@@ -108,6 +115,7 @@
 }
 /* Vision section  */
 .vision-section{
+  margin-top: 80px;
   display: flex;
   /* width: 1280px; */
   max-width: 100%;
@@ -217,4 +225,104 @@ align-items: center;
 .vision-button-c3{
   background: #FFC239;
 
+}
+
+/* News section */
+
+.news-section{
+
+}
+
+.news-main{
+  /* border-radius: 24px;
+  background: #FFF;
+  display: flex;
+padding: 48px;
+align-items: center;
+gap: 32px;
+align-self: stretch; */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
+
+.news-text{
+  color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.news-comb{
+  display: flex;
+  padding: 48px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 24px;
+background: #FFF;
+}
+.sat-image{
+  width: 408px;
+height: 306px;
+  border-radius: 24px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.sat-title{
+  align-self: stretch;
+  color: rgba(14, 14, 14, 0.80);
+font-family: "Fira Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.aljazira{
+  position: left;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.satdate{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.datetime{
+  color: rgba(14, 14, 14, 0.70);
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+.btn-sat{
+  color: #FFF;
+font-family: "Fira Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  border-radius: 8px;
+  background: #006A50;
+  display: flex;
+padding: 13px 26px;
+justify-content: center;
+align-items: center;
+margin-top: 32px;
+gap: 48px;
+}
+.news-sat1{
+
+}
+.news-sat2{
+  
+}
+.news-sat3{
+  
 }
