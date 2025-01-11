@@ -52,12 +52,28 @@ body{
 /* Hover effect */
 .vision-button:hover {
   background-color: red;
-  font-style: 700;
+  font-style:italic
 }
 .banner-btn:hover {
   background-color: rgb(255, 153, 0);
   font-style: 700;
+  font-style:italic
 }
+.button-taka:hover {
+  background-color: rgba(255, 0, 212, 0.884);
+  font-style:italic
+}
+
+.donate-button:hover {
+  background-color: rgba(255, 136, 0, 0.952);
+  f
+  font-style:italic 
+}
+
+  .btn-sat:hover {
+    background-color: rgba(225, 0, 255, 0.952);
+    f
+    font-style:italic }
 
 /* Main margin */
 .main-margin{
@@ -68,14 +84,22 @@ body{
 /* Banner Section */
 .banner-section{
  
-  border-radius: 24px;
+  /* border-radius: 24px;
   background: #c6e4d6;
   display: flex;
   max-width: 100%;
   padding: 80px 100px;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
-  gap: 64px;
+  gap: 64px; */
+  border-radius: 24px;
+background: #C6E4D6;
+display: flex;
+max-width: 100%;
+padding: 80px 100px;
+justify-content: center;
+align-items: center;
+gap: 64px;
 }
 
 .banner-title {
@@ -131,7 +155,8 @@ gap: 24px;
 align-self: stretch;
 }
 
-.title-text {align-self: stretch;
+.title-text {
+  /* align-self: stretch; */
   color: #0E0E0E;
 font-family: "Fira Sans";
 font-size: 40px;
@@ -317,3 +342,100 @@ align-items: center;
 margin-top: 32px;
 gap: 48px;
 }
+/* donate-section */
+.donate-section{
+  margin: 80px 0px;
+
+}
+.donate-main-div{
+  display: flex;
+/* width: 1280px; */
+flex-direction: column;
+align-items: center;
+/* gap: 32px; */
+}
+.donate-text{
+  width: 1104px;
+  color: rgba(14, 14, 14, 0.70);
+text-align: center;
+font-family: "Fira Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin: 24px 88px 0px 88px;
+}
+
+.button-taka{
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #FFF;
+  display: flex;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+color: rgba(14, 14, 14, 0.80);
+font-family: "Fira Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.button-taka-main{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
+  margin: 32px 0px;
+}
+.button-taka-color{
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #C6E4D6;
+}
+
+#amount-box-text{
+
+text-align: center;
+/* border-bottom: 1px solid rgba(14, 14, 14, 0.15); */
+
+display: flex;
+width: 940px;
+border-style: none;
+padding: 20px 40px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+/* color: rgba(14, 14, 14, 0.30); */
+font-family: "Fira Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.textfixing{
+  margin: 0px 124px 32px 124px;
+}
+
+.donate-button{
+  border-radius: 8px;
+  border: 1px solid rgba(14, 14, 14, 0.10);
+  background: #006A50;
+  display: flex;
+padding: 17px 34px;
+justify-content: center;
+align-items: center;
+gap: 48px;
+color: #FFF;
+font-family: "Fira Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
