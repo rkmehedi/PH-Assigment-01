@@ -66,13 +66,13 @@ body{
 
 .donate-button:hover {
   background-color: rgba(255, 136, 0, 0.952);
-  f
+  
   font-style:italic ;
 }
 
   .btn-sat:hover {
     background-color: rgba(225, 0, 255, 0.952);
-    f
+    
     font-style:italic ;}
 
 /* Main margin */
@@ -255,7 +255,7 @@ align-items: center;
 /* News section */
 
 .news-section{
-
+margin-top: 80px;
 }
 
 .news-main{
@@ -308,12 +308,12 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.aljazira{
+.al-jaz-ira {
   position: left;
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.satdate{
+.sat-date {
   display: flex;
   gap: 12px;
   margin-bottom: 12px;
@@ -417,7 +417,7 @@ line-height: normal;
 
 }
 
-.textfixing{
+.text-fixing{
   margin: 0px 124px 32px 124px;
 }
 
