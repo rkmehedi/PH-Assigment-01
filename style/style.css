@@ -549,7 +549,7 @@ line-height: normal;
 }
 .yunus-section-div{
 
-  background-image: url(./assets/quote-bg.png);
+  background-image:url('../assets/quote-bg.png');
   
   background-repeat: no-repeat;
   background-position: top left ;
@@ -665,4 +665,8 @@ align-items: center;
   background: rgba(14, 14, 14, 0.10);
   width: 1122px;
 height: 1px;
+}
+.table-things{
+
+
 }
