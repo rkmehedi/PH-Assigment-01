@@ -627,3 +627,42 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; 
 }
+/* Footer sections */
+.footer-section{
+  display: flex;
+padding: 50px 160px;
+flex-direction: column;
+align-items: center;
+/* gap: 32px; */
+align-self: stretch;
+
+background: #FFF;
+
+}
+.footer-name{
+  color: #0E0E0E;
+font-family: "Fira Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+
+}
+.social{
+  
+display: flex;
+align-items: flex-start;
+gap: 23px;
+align-items: center;
+/* gap: 32px; */
+
+  
+}
+.line-class{
+  margin-bottom: 32px;
+  margin-top: 32px;
+  background: rgba(14, 14, 14, 0.10);
+  width: 1122px;
+height: 1px;
+}
